@@ -9,7 +9,7 @@ pipeline{
                 }
             }
             stages{
-                stage {
+                stage ("Build - instalación dependencias"){
                     steps{
                         sh 'npm install'
                     }
