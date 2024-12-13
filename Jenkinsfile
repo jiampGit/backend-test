@@ -26,7 +26,7 @@ pipeline{
                 }
             }            
         }
-        stage("Puerta Calidad - SonarQube"){
+        stage("Quality Assurance"){
             agent {
                 docker {
                     label 'contenedores'
@@ -36,10 +36,22 @@ pipeline{
                 }
             }
             stages{
-                stage("Quality assurance"){
+                stage("Quality assurance - Sonarqube"){
                     steps{
                         withSonarQubeEnv('sonarqube'){
                             sh 'sonar-scanner'
+                        }
+                    }
+                }
+                stage("Quality assurance - Puerta Calidad"){
+                    steps{
+                        script{
+                            timeout(time: 1, unit: 'MINUTES'){
+                                def qg = waitForQualityGate()
+                                if (qg.status != 'OK'){
+                                    error "Pipeline abortado debido a falla de puerta de calidad: ${qg.status}"
+                                }
+                            }                            
                         }
                     }
                 }
