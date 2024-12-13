@@ -35,7 +35,7 @@ pipeline{
                     reuseNode true
                 }
             }
-            stages() {
+            stages{
                 stage("Quality assurance"){
                     steps{
                         withSonarQubeEnv('sonarqube'){
