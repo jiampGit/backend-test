@@ -46,7 +46,7 @@ pipeline{
                 stage("Quality assurance - Puerta Calidad"){
                     steps{
                         script{
-                            timeout(time: 3, unit: 'MINUTES'){
+                            timeout(time: 10, unit: 'MINUTES'){
                                 def qg = waitForQualityGate()
                                 if (qg.status != 'OK'){
                                     error "Pipeline abortado debido a falla de puerta de calidad: ${qg.status}"
