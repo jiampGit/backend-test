@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1732298854485" clover="3.2.0">
+  <project timestamp="1732298854485" name="All files">
+    <metrics statements="43" coveredstatements="43" conditionals="60" coveredconditionals="60" methods="7" coveredmethods="7" elements="110" coveredelements="110" complexity="0" loc="43" ncloc="43" packages="1" files="1" classes="1"/>
+    <file name="calculadora.ts" path="C:\Users\Pavilion\lab3\backend-devops\src\app\calculadora.ts">
+      <metrics statements="43" coveredstatements="43" conditionals="60" coveredconditionals="60" methods="7" coveredmethods="7"/>
+      <line num="4" count="15" type="cond" truecount="7" falsecount="0"/>
+      <line num="6" count="6" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="23" count="13" type="cond" truecount="5" falsecount="0"/>
+      <line num="24" count="3" type="stmt"/>
+      <line num="27" count="10" type="cond" truecount="3" falsecount="0"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="31" count="8" type="stmt"/>
+      <line num="35" count="9" type="cond" truecount="5" falsecount="0"/>
+      <line num="36" count="3" type="stmt"/>
+      <line num="39" count="6" type="cond" truecount="3" falsecount="0"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="43" count="5" type="stmt"/>
+      <line num="47" count="8" type="cond" truecount="5" falsecount="0"/>
+      <line num="48" count="3" type="stmt"/>
+      <line num="50" count="5" type="cond" truecount="3" falsecount="0"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="53" count="4" type="stmt"/>
+      <line num="57" count="8" type="cond" truecount="5" falsecount="0"/>
+      <line num="58" count="2" type="stmt"/>
+      <line num="60" count="6" type="cond" truecount="3" falsecount="0"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="63" count="5" type="cond" truecount="1" falsecount="0"/>
+      <line num="64" count="1" type="stmt"/>
+      <line num="66" count="4" type="stmt"/>
+      <line num="70" count="8" type="cond" truecount="5" falsecount="0"/>
+      <line num="71" count="3" type="stmt"/>
+      <line num="73" count="5" type="cond" truecount="3" falsecount="0"/>
+      <line num="74" count="1" type="stmt"/>
+      <line num="76" count="4" type="stmt"/>
+      <line num="80" count="39" type="cond" truecount="3" falsecount="0"/>
+      <line num="81" count="3" type="stmt"/>
+      <line num="83" count="36" type="cond" truecount="3" falsecount="0"/>
+      <line num="84" count="1" type="stmt"/>
+      <line num="86" count="35" type="cond" truecount="3" falsecount="0"/>
+      <line num="87" count="2" type="stmt"/>
+      <line num="90" count="33" type="cond" truecount="2" falsecount="0"/>
+      <line num="93" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
