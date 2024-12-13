@@ -36,12 +36,11 @@ pipeline{
                 }
             }
             stages{
-                stage("Quality assurance - Sonarqube"){
-                    steps{
-                        withSonarQubeEnv('sonarqube'){
-                            sh 'sonar-scanner'
-                        }
-                    }
+                stage('Quality assurance - Sonarqube') {
+                    steps { withSonarQubeEnv('sonarqube') {
+                        sh 'sonar-scanner' 
+                        } 
+                    } 
                 }
                 stage("Quality assurance - Puerta Calidad"){
                     steps{
